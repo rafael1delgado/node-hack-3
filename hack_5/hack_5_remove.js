@@ -1,7 +1,7 @@
 /**
-* eliminar del objeto result la propiedad role 
-* 
-* 
+* eliminar del objeto result la propiedad role
+*
+*
 * output => {
     id:100,
     name:"foo",
@@ -13,6 +13,6 @@ let result = {
     role:"admin"
 };
 
- 
+delete result.role;
 //export result
-module.exports = result; 
+module.exports = result;

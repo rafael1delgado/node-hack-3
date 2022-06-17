@@ -2,7 +2,7 @@
 * en result, reflejar con un objeto literal la integración
 * de los 2 objetos
 *
-* 
+*
 * output => {
     id:100,
     name:"foo",
@@ -23,6 +23,7 @@ let bar = {
 }
 let result;
 
+result = { ...foo, ...bar };
 
 //export result
-module.exports = result; 
+module.exports = result;

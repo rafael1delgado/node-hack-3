@@ -1,9 +1,9 @@
 /**
-* modificar los valores de las propiedades (name y role) del objeto result, 
+* modificar los valores de las propiedades (name y role) del objeto result,
 * name -> capital,
 * role -> upper
-* 
-* 
+*
+*
 * output => {
     id:100,
     name:"Foo",
@@ -16,6 +16,8 @@ let result = {
     role:"admin"
 };
 
- 
+result.name = "Foo";
+result.role = "ADMIN";
+
 //export result
-module.exports = result; 
+module.exports = result;
